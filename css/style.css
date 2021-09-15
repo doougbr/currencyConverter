@@ -1,0 +1,27 @@
+html {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(19, 18, 18);
+    text-align: center
+}
+
+.br {
+    line-height: 10;
+}
+
+h1 {
+    border: 2px;
+    color: whitesmoke;
+}
+
+p {
+    font-size: 100%;
+    color: whitesmoke;
+}
+
+.title {
+    text-align: center;
+}

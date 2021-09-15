@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="currency, conversion">
+        <meta name="description" content="Currency converter">
+        <meta name="author" content="Douglas Bittencourt">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conversor de moedas</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+        </style>
+    </head>
+
+    <body>
+        <div class="title">
+            <h1>Conversor de moedas</h1>
+        </div>
+
+        <div>
+            <img id="moneyImage" src="https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg" alt="money" style="width: 40%; height: 40%;">
+            <br><br>
+        </div>
+
+        <p>
+            Aqui você pode converter valores para diferentes moedas do mundo todo!
+        </p>
+        
+        <div>
+            <form action="index.html" method="GET">
+                <input type="text" id="inputValue" name="inputValue" placeholder="Insira o valor em R$ aqui"><br><br>
+                <button id="btn_convert" type="button" onclick="convertCurrencies()">Converter</button>
+            </form>
+        </div>
+
+        <div>
+            <p id="dollarConvertedField">O valor convertido em U$ é:</p>
+            <p id="euroConvertedField">O valor convertido em Euro é:</p>
+        </div>
+        
+        
+        <div class="br">
+            <br>
+        </div>
+
+        <footer>
+            <hr>
+            <p>Site feito por Douglas B Ribeiro</p>
+        </footer>
+
+        <script src="./js/script.js"></script>
+
+    </body>
+</html>
